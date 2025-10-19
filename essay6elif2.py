@@ -4,11 +4,23 @@ nota3 = float (input("Digite sua terceira nota : "))
 
 media = (nota1 + nota2 + nota3)/3 
 
+
+if media <6:
+    print("F")
+elif media < 7:
+    print("D")
+elif media <8:
+    print("C")
+elif media < 9:
+    print("B")
+else:
+    print("A")
+
+
 if media < 6:
     print("Voce foi reprovado")
 elif media < 10:
     print("Voce foi aprovado")
 else:
     print("Voce passou com nota máxima")
-
-
+  
